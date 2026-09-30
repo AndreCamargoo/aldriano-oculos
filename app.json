@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Óculos Assistivos",
+    "slug": "oculos-assistivos",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0A0C16",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app precisa acessar suas fotos para descrevê-las.",
+          "cameraPermission": "O app precisa da câmera para descrever o que você está vendo."
+        }
+      ]
+    ],
+    "ios": { "supportsTablet": false, "bundleIdentifier": "br.unip.oculosassistivos" },
+    "android": { "package": "br.unip.oculosassistivos" }
+  }
+}
